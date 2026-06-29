@@ -18,13 +18,13 @@ export const command: CommandData = {
     {
       type: ApplicationCommandOptionType.Subcommand,
       name: "ase",
-      description: "The game to query.",
+      description: "Search a server name, return the population",
       options: [tagOption],
     },
     {
       type: ApplicationCommandOptionType.Subcommand,
       name: "asa",
-      description: "The game to query.",
+      description: "Search a server name, return the population",
       options: [tagOption],
     },
   ],
